@@ -1,0 +1,280 @@
+@wdclr:#000066;
+@bgclr:#99b3ff;
+@brclr:#000000;
+@margin:5px;
+@padding:5px;
+@mainWidth:1000px;
+@height:200px; 
+
+
+.pullLeft{
+	float: left;
+}
+.clearFix{
+	clear: both;
+}
+.border{
+	border: 1px solid @brclr
+}
+.centration{
+	margin: 0 auto;
+}
+/* СЕЛЕКТОРЫ*/
+[title*="clm"]{
+	height:@height/3;
+	background:#99b3ff;
+}
+[title="clm1"] h3 {
+	text-align: center;
+	color:@wdclr;
+	font-family: tahoma;	
+}
+[title="clm1"] h3 span {
+	color:lighten(@wdclr,30%);
+}
+[title="clm2"] div {
+	width:100%;
+	height: @height/4;
+	background:@wdclr;
+	margin-top:@margin + 0.5*@margin;
+}
+[title="clm3"] div {
+	width:100%;
+	height: @height/4;
+	background:@wdclr;
+	margin-top:@margin + 0.5*@margin;
+}
+[title="clm4"] div {
+	width:50%;
+	height: @height/4;
+	background:@wdclr;
+	margin-top:@margin + 0.5*@margin;
+}
+[title^="menu"]{
+	height:@height/3;
+	background:#99b3ff;
+	border-top: 1px solid @brclr;
+	border-bottom: 1px solid @brclr;
+}
+[title="menu-clm2"] ul li {
+	list-style-type: none;
+	float: left;
+	padding: @padding*3;
+	font-family: tahoma;
+}
+[title^="under"]{
+	height:@height/3;
+	background:#99b3ff;
+}
+[title^="under"]{
+	font-family: tahoma;
+	font-size: large;
+	padding-top: @padding*8
+}
+[title^="under"]span {
+	font-family: tahoma;
+	font-size: small;
+}
+[title^="videos"]{
+	height: @height*3;
+	background: @bgclr;
+}
+[title="up"]{
+	height: @height*2 - @margin;
+	background: @wdclr;
+	display: block;
+	margin-bottom: @margin;
+}
+[title="div1"]{
+	height: @height;
+	width:49%;
+	margin-right: @margin;
+	background: @wdclr;
+	float: left;
+}
+[title="div2"]{
+	height: @height;
+	width:49%;
+	margin-left: @margin;
+	background: @wdclr;
+	float: left;
+}
+
+[title="videos-clm2"] div {
+	height: calc(@height - @margin);
+	display: block;
+	background: @wdclr;
+	margin-top: @margin;
+}
+[title="videos-clm3"] div {
+	height: calc(@height/2 - @margin);
+	display: block;
+	margin-top: @margin;
+	background: @wdclr;
+}
+
+[title^="middle"]{
+	height:@height/3;
+	background:#99b3ff;
+}
+[title^="middle"]{
+	font-family: tahoma;
+	font-size: large;
+	padding-top: @padding*8
+}
+[title^="middle"]span {
+	font-family: tahoma;
+	font-size: small;
+}
+
+[title="cntr-fl"]{
+	background: @bgclr;
+}
+[title="People"]{
+	height: @height*3;
+}
+[title="pUp"]{
+	height: @height*2 - @margin;
+	background: @wdclr;
+	display: block;
+	margin-bottom: @margin;
+}
+[title="downDiv1"]{
+	height: @height;
+	width:49%;
+	margin-right: @margin;
+	background: @wdclr;
+	float: left;
+}
+[title="downDiv2"]{
+	height: @height;
+	width:49%;
+	margin-left: @margin;
+	background: @wdclr;
+	float: left;
+}
+[title="mid"] div {
+	height: calc(@height - @margin);
+	display: block;
+	background: @wdclr;
+	margin-top: @margin;
+}
+[title="ch1"] div {
+	height: calc(@height - @margin);
+	display: block;
+	margin-top: @margin;
+	background: @wdclr;
+}
+[title="ch2"] div {
+	height: calc(@height - @margin);
+	display: block;
+	margin-top: @margin;
+	background: @wdclr;
+}
+
+
+
+
+[title="docs"]{
+	height: @height*3;
+	margin-top: @margin*2
+}
+[title="dUp"]{
+	height: @height*2 - @margin;
+	background: @wdclr;
+	display: block;
+	margin-bottom: @margin;
+}
+[title="docDiv1"]{
+	height: @height;
+	width:49%;
+	margin-right: @margin;
+	background: @wdclr;
+	float: left;
+}
+[title="docDiv2"]{
+	height: @height;
+	width:49%;
+	margin-left: @margin;
+	background: @wdclr;
+	float: left;
+}
+[title="docMid"] div {
+	height: calc(@height - 2px - @margin);
+	display: block;
+	background: @wdclr;
+	margin-top: @margin*2;
+}
+
+[title="cl1"] div {
+	height: calc(@height - 20% - @margin);
+	display: block;
+	margin-top: @margin;
+	background: @wdclr;
+}
+[title="cl2"] div {
+	height: calc(@height - 20% - @margin);
+	display: block;
+	margin-top: @margin;
+	background: @wdclr;
+}
+
+
+[title="preFooter"]{
+	height: @height/4;
+	background: @bgclr;
+}
+
+[title="line"]{
+	width: 95%;
+	border-bottom: 5px solid @wdclr;
+	margin-left: @margin*4;
+}
+[title="fb"]{
+	display: inline-block;
+	margin-left: @margin*10;
+	color: @wdclr; 
+}
+[title="tw"]{
+	display: inline-block;
+	color: @wdclr;
+}
+[title="in"]{
+	display: inline-block;
+	color: @wdclr;
+}
+
+[title="mn-bottom-clm1"] ul li {
+	list-style-type: none;
+	float: left;
+	font-family: tahoma;
+	height:@height/4;
+	background:#99b3ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,232 @@
+.pullLeft {
+  float: left;
+}
+.clearFix {
+  clear: both;
+}
+.border {
+  border: 1px solid #000000;
+}
+.centration {
+  margin: 0 auto;
+}
+/* СЕЛЕКТОРЫ*/
+[title*="clm"] {
+  height: 66.66666667px;
+  background: #99b3ff;
+}
+[title="clm1"] h3 {
+  text-align: center;
+  color: #000066;
+  font-family: tahoma;
+}
+[title="clm1"] h3 span {
+  color: #0000ff;
+}
+[title="clm2"] div {
+  width: 100%;
+  height: 50px;
+  background: #000066;
+  margin-top: 7.5px;
+}
+[title="clm3"] div {
+  width: 100%;
+  height: 50px;
+  background: #000066;
+  margin-top: 7.5px;
+}
+[title="clm4"] div {
+  width: 50%;
+  height: 50px;
+  background: #000066;
+  margin-top: 7.5px;
+}
+[title^="menu"] {
+  height: 66.66666667px;
+  background: #99b3ff;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+[title="menu-clm2"] ul li {
+  list-style-type: none;
+  float: left;
+  padding: 15px;
+  font-family: tahoma;
+}
+[title^="under"] {
+  height: 66.66666667px;
+  background: #99b3ff;
+}
+[title^="under"] {
+  font-family: tahoma;
+  font-size: large;
+  padding-top: 40px;
+}
+[title^="under"]span {
+  font-family: tahoma;
+  font-size: small;
+}
+[title^="videos"] {
+  height: 600px;
+  background: #99b3ff;
+}
+[title="up"] {
+  height: 395px;
+  background: #000066;
+  display: block;
+  margin-bottom: 5px;
+}
+[title="div1"] {
+  height: 200px;
+  width: 49%;
+  margin-right: 5px;
+  background: #000066;
+  float: left;
+}
+[title="div2"] {
+  height: 200px;
+  width: 49%;
+  margin-left: 5px;
+  background: #000066;
+  float: left;
+}
+[title="videos-clm2"] div {
+  height: calc(195px);
+  display: block;
+  background: #000066;
+  margin-top: 5px;
+}
+[title="videos-clm3"] div {
+  height: calc(95px);
+  display: block;
+  margin-top: 5px;
+  background: #000066;
+}
+[title^="middle"] {
+  height: 66.66666667px;
+  background: #99b3ff;
+}
+[title^="middle"] {
+  font-family: tahoma;
+  font-size: large;
+  padding-top: 40px;
+}
+[title^="middle"]span {
+  font-family: tahoma;
+  font-size: small;
+}
+[title="cntr-fl"] {
+  background: #99b3ff;
+}
+[title="People"] {
+  height: 600px;
+}
+[title="pUp"] {
+  height: 395px;
+  background: #000066;
+  display: block;
+  margin-bottom: 5px;
+}
+[title="downDiv1"] {
+  height: 200px;
+  width: 49%;
+  margin-right: 5px;
+  background: #000066;
+  float: left;
+}
+[title="downDiv2"] {
+  height: 200px;
+  width: 49%;
+  margin-left: 5px;
+  background: #000066;
+  float: left;
+}
+[title="mid"] div {
+  height: calc(195px);
+  display: block;
+  background: #000066;
+  margin-top: 5px;
+}
+[title="ch1"] div {
+  height: calc(195px);
+  display: block;
+  margin-top: 5px;
+  background: #000066;
+}
+[title="ch2"] div {
+  height: calc(195px);
+  display: block;
+  margin-top: 5px;
+  background: #000066;
+}
+[title="docs"] {
+  height: 600px;
+  margin-top: 10px;
+}
+[title="dUp"] {
+  height: 395px;
+  background: #000066;
+  display: block;
+  margin-bottom: 5px;
+}
+[title="docDiv1"] {
+  height: 200px;
+  width: 49%;
+  margin-right: 5px;
+  background: #000066;
+  float: left;
+}
+[title="docDiv2"] {
+  height: 200px;
+  width: 49%;
+  margin-left: 5px;
+  background: #000066;
+  float: left;
+}
+[title="docMid"] div {
+  height: calc(193px);
+  display: block;
+  background: #000066;
+  margin-top: 10px;
+}
+[title="cl1"] div {
+  height: calc(175px);
+  display: block;
+  margin-top: 5px;
+  background: #000066;
+}
+[title="cl2"] div {
+  height: calc(175px);
+  display: block;
+  margin-top: 5px;
+  background: #000066;
+}
+[title="preFooter"] {
+  height: 50px;
+  background: #99b3ff;
+}
+[title="line"] {
+  width: 95%;
+  border-bottom: 5px solid #000066;
+  margin-left: 20px;
+}
+[title="fb"] {
+  display: inline-block;
+  margin-left: 50px;
+  color: #000066;
+}
+[title="tw"] {
+  display: inline-block;
+  color: #000066;
+}
+[title="in"] {
+  display: inline-block;
+  color: #000066;
+}
+[title="mn-bottom-clm1"] ul li {
+  list-style-type: none;
+  float: left;
+  font-family: tahoma;
+  height: 50px;
+  background: #99b3ff;
+}
